@@ -137,14 +137,14 @@ export let themes = [
 export let exampleRepos = [
   {
     name: "Vite",
-    href: "https://stackblitz.com/edit/dculusux-vite",
+    href: "https://stackblitz.com/edit/dculusui-vite",
     logos: [
       "/logos/vite.svg",
     ]
   },
   {
     name: "Svelte (Vite)",
-    href: "https://stackblitz.com/edit/dculusux-svelte-vite",
+    href: "https://stackblitz.com/edit/dculusui-svelte-vite",
     logos: [
       "/logos/svelte.svg",
       "/logos/vite.svg",
@@ -152,14 +152,14 @@ export let exampleRepos = [
   },
   {
     name: "Vue.js 3",
-    href: "https://stackblitz.com/edit/dculusux-vue-vite",
+    href: "https://stackblitz.com/edit/dculusui-vue-vite",
     logos: [
       "/logos/vue.svg",
     ]
   },
   {
     name: "React (Vite)",
-    href: "https://stackblitz.com/edit/dculusux-react-vite",
+    href: "https://stackblitz.com/edit/dculusui-react-vite",
     logos: [
       "/logos/react.svg",
       "/logos/vite.svg",
@@ -167,35 +167,35 @@ export let exampleRepos = [
   },
   {
     name: "Nextjs",
-    href: "https://stackblitz.com/edit/dculusux-nextjs",
+    href: "https://stackblitz.com/edit/dculusui-nextjs",
     logos: [
       "/logos/nextjs.svg",
     ]
   },
   {
     name: "SvelteKit",
-    href: "https://stackblitz.com/edit/dculusux-sveltekit",
+    href: "https://stackblitz.com/edit/dculusui-sveltekit",
     logos: [
       "/logos/svelte.svg",
     ]
   },
   {
     name: "Remix",
-    href: "https://stackblitz.com/edit/dculusux-remix",
+    href: "https://stackblitz.com/edit/dculusui-remix",
     logos: [
       "/logos/remix.svg",
     ]
   },
   {
     name: "Nuxtjs 3",
-    href: "https://stackblitz.com/edit/dculusux-nuxtjs",
+    href: "https://stackblitz.com/edit/dculusui-nuxtjs",
     logos: [
       "/logos/nuxtjs.svg",
     ]
   },
   {
     name: "Solid.js",
-    href: "https://stackblitz.com/edit/dculusux-solidjs",
+    href: "https://stackblitz.com/edit/dculusui-solidjs",
     logos: [
       "/logos/solidjs.svg",
       "/logos/vite.svg",
@@ -203,14 +203,14 @@ export let exampleRepos = [
   },
   {
     name: "PostCSS",
-    href: "https://stackblitz.com/edit/dculusux-postcss",
+    href: "https://stackblitz.com/edit/dculusui-postcss",
     logos: [
       "/logos/postcss.svg",
     ]
   },
   {
     name: "React (Webpack)",
-    href: "https://stackblitz.com/edit/dculusux-react-webpack",
+    href: "https://stackblitz.com/edit/dculusui-react-webpack",
     logos: [
       "/logos/react.svg",
       "/logos/webpack.svg",
@@ -218,7 +218,7 @@ export let exampleRepos = [
   },
   {
     name: "Preact (Vite)",
-    href: "https://stackblitz.com/edit/dculusux-preact-vite",
+    href: "https://stackblitz.com/edit/dculusui-preact-vite",
     logos: [
       "/logos/preact.svg",
       "/logos/vite.svg",
@@ -226,14 +226,14 @@ export let exampleRepos = [
   },
   {
     name: "Angular",
-    href: "https://stackblitz.com/edit/dculusux-angular",
+    href: "https://stackblitz.com/edit/dculusui-angular",
     logos: [
       "/logos/angular.svg",
     ]
   },
   {
     name: "Lit (Vite)",
-    href: "https://stackblitz.com/edit/dculusux-lit-vite",
+    href: "https://stackblitz.com/edit/dculusui-lit-vite",
     logos: [
       "/logos/lit.svg",
       "/logos/vite.svg",
@@ -241,7 +241,7 @@ export let exampleRepos = [
   },
   {
     name: "Svelte (rollup.js)",
-    href: "https://stackblitz.com/edit/dculusux-svelte-rollup",
+    href: "https://stackblitz.com/edit/dculusui-svelte-rollup",
     logos: [
       "/logos/svelte.svg",
       "/logos/rollup.svg",
@@ -249,28 +249,28 @@ export let exampleRepos = [
   },
   {
     name: "Astro",
-    href: "https://stackblitz.com/edit/dculusux-astro",
+    href: "https://stackblitz.com/edit/dculusui-astro",
     logos: [
       "/logos/astro.svg",
     ]
   },
   {
     name: "11ty",
-    href: "https://stackblitz.com/edit/dculusux-11ty",
+    href: "https://stackblitz.com/edit/dculusui-11ty",
     logos: [
       "/logos/11ty.svg",
     ]
   },
   {
     name: "Snowpack",
-    href: "https://stackblitz.com/edit/dculusux-snowpack",
+    href: "https://stackblitz.com/edit/dculusui-snowpack",
     logos: [
       "/logos/snowpack.svg",
     ]
   },
   {
     name: "React (CRA)",
-    href: "https://stackblitz.com/edit/dculusux-react-cra",
+    href: "https://stackblitz.com/edit/dculusui-react-cra",
     logos: [
       "/logos/react.svg",
       "/logos/cra.svg",
@@ -278,21 +278,21 @@ export let exampleRepos = [
   },
   {
     name: "CDN (Tailwind)",
-    href: "https://stackblitz.com/edit/dculusux-cdn",
+    href: "https://stackblitz.com/edit/dculusui-cdn",
     logos: [
       "/logos/jsdelivr.svg",
     ]
   },
   {
     name: "CDN (BassCSS)",
-    href: "https://stackblitz.com/edit/dculusux-basscss",
+    href: "https://stackblitz.com/edit/dculusui-basscss",
     logos: [
       "/logos/jsdelivr.svg",
     ]
   },
   {
     name: "CDN (Tachyons)",
-    href: "https://stackblitz.com/edit/dculusux-tachyons",
+    href: "https://stackblitz.com/edit/dculusui-tachyons",
     logos: [
       "/logos/jsdelivr.svg",
     ]

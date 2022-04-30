@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run createStyleHandlerComponent:dev && svelte-kit dev --open",
-    "build": "npm i dculusux@latest && npm run createStyleHandlerComponent:prod && NODE_ENV=production svelte-kit build",
+    "build": "npm i dculusui@latest && npm run createStyleHandlerComponent:prod && NODE_ENV=production svelte-kit build",
     "preview": "svelte-kit preview",
     "createStyleHandlerComponent:dev": "echo '<script>\n  import \"@components/StyleDevelopment.svelte\"\n</script>' > src/components/StyleHandler.svelte",
     "createStyleHandlerComponent:prod": "echo '<script>\n  import \"@components/StyleProduction.svelte\"\n</script>' > src/components/StyleHandler.svelte",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "color": "^4.2.1",
-    "dculusux": "^2.11.1",
+    "dculusui": "^2.11.1",
     "emoji-unicode": "^2.0.1",
     "lodash.debounce": "^4.0.8",
     "nanoid": "^3.3.1",

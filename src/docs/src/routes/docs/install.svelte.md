@@ -17,7 +17,7 @@ published: true
 1. <Translate text="Install daisyUI" />:
 
 ```
-npm i dculusux
+npm i dculusui
 ```
 
 2. <Translate text="Then add daisyUI to your <code>tailwind.config.js</code> files" />:
@@ -25,7 +25,7 @@ npm i dculusux
 ```js
 module.exports = {
   //...
-  plugins: [require("dculusux")],
+  plugins: [require("dculusui")],
 }
 ```
 

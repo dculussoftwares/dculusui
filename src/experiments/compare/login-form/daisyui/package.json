@@ -4,7 +4,7 @@
     "prod": "tailwindcss -o output.css --minify"
   },
   "dependencies": {
-    "dculusux": "^2.13.3",
+    "dculusui": "^2.13.3",
     "tailwindcss": "^3.0.23"
   }
 }

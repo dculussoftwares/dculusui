@@ -19,24 +19,24 @@ data="{[
 
 <Component title="mockup code with line prefix">
 <div class="mockup-code">
-  <pre data-prefix="$"><code>npm i dculusux</code></pre>
+  <pre data-prefix="$"><code>npm i dculusui</code></pre>
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$mockup-code">
-  <pre data-prefix="$"><code>npm i dculusux</code></pre>
+  <pre data-prefix="$"><code>npm i dculusui</code></pre>
 </div>`
 }</pre>
 </Component>
 
 <Component title="Multi line">
 <div class="mockup-code">
-  <pre data-prefix="$"><code>npm i dculusux</code></pre>
+  <pre data-prefix="$"><code>npm i dculusui</code></pre>
   <pre data-prefix=">" class="text-warning"><code>installing...</code></pre>
   <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$mockup-code">
-  <pre data-prefix="$"><code>npm i dculusux</code></pre> 
+  <pre data-prefix="$"><code>npm i dculusui</code></pre> 
   <pre data-prefix=">" class="text-warning"><code>installing...</code></pre> 
   <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
 </div>`
@@ -45,13 +45,13 @@ data="{[
 
 <Component title="Highlighted line">
 <div class="mockup-code">
-  <pre data-prefix="1"><code>npm i dculusux</code></pre> 
+  <pre data-prefix="1"><code>npm i dculusui</code></pre> 
   <pre data-prefix="2"><code>installing...</code></pre> 
   <pre data-prefix="3" class="bg-warning text-warning-content"><code>Error!</code></pre>
 </div>
 <pre slot="html" use:replace={{ to: $prefix }}>{
 `<div class="$$mockup-code">
-  <pre data-prefix="1"><code>npm i dculusux</code></pre> 
+  <pre data-prefix="1"><code>npm i dculusui</code></pre> 
   <pre data-prefix="2"><code>installing...</code></pre> 
   <pre data-prefix="3" class="bg-warning text-warning-content"><code>Error!</code></pre>
 </div>`
