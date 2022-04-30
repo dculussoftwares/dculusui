@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   content: ['./src/**/*.{astro,html,svelte,vue,js,ts,jsx,tsx}'],
-  dculusui: {
+  dculusux: {
     themes: [
       'light'
     ],
@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('../../'),
-    // require('dculusui'),
+    // require('dculusux'),
     // require('tailwindcss-flip'),
 
   ],

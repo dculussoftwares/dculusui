@@ -17,7 +17,7 @@ const colorFunctions = require("./colors/functions");
 const mainFunction = ({ addBase, addComponents, addUtilities, config, postcss }) => {
   let diasyuiIncludedItems = [];
   let logs = false;
-  if (config("dculusui.logs") != false) {
+  if (config("dculusux.logs") != false) {
     logs = true;
   }
   if (logs) {
@@ -32,7 +32,7 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config, postcss })
   }
 
   // inject @base style
-  if (config("dculusui.base") != false) {
+  if (config("dculusux.base") != false) {
     addBase(base);
     diasyuiIncludedItems.push("base");
   }
@@ -40,25 +40,25 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config, postcss })
   // inject components
   // because rollupjs doesn't supprt dynamic require
   let file = styled;
-  if (config("dculusui.styled") == false && config("dculusui.rtl") != true) {
+  if (config("dculusux.styled") == false && config("dculusux.rtl") != true) {
     diasyuiIncludedItems.push("unstyled components");
     file = unstyled;
   } else if (
-    config("dculusui.styled") == false &&
-    config("dculusui.rtl") == true
+    config("dculusux.styled") == false &&
+    config("dculusux.rtl") == true
   ) {
     diasyuiIncludedItems.push("unstyled components");
     console.log("\x1b[36m%s\x1b[0m", " Direction:", "\x1b[0m", "RTL");
     file = unstyledRtl;
   } else if (
-    config("dculusui.styled") != false &&
-    config("dculusui.rtl") != true
+    config("dculusux.styled") != false &&
+    config("dculusux.rtl") != true
   ) {
     diasyuiIncludedItems.push("components");
     file = styled;
   } else if (
-    config("dculusui.styled") !== false &&
-    config("dculusui.rtl") == true
+    config("dculusux.styled") !== false &&
+    config("dculusux.rtl") == true
   ) {
     diasyuiIncludedItems.push("components");
     console.log("\x1b[36m%s\x1b[0m", " Direction:", "\x1b[0m", "RTL");
@@ -66,7 +66,7 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config, postcss })
   }
 
   // add prefix to class names if specified
-  const prefix = config("dculusui.prefix")
+  const prefix = config("dculusux.prefix")
   let postcssJsProcess
   if (prefix) {
     try {
@@ -88,7 +88,7 @@ const mainFunction = ({ addBase, addComponents, addUtilities, config, postcss })
   diasyuiIncludedItems.push("themes[" + themeInjector.themeOrder.length + "]");
 
   // inject @utilities style needed by components
-  if (config("dculusui.utils") != false) {
+  if (config("dculusux.utils") != false) {
     addComponents(utilities, { variants: ["responsive"] });
 
     let toAdd = utilitiesUnstyled // shadow clone here to avoid mutate the original

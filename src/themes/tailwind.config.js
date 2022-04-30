@@ -5,7 +5,7 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  dculusui: {
+  dculusux: {
     base: false,
   },
   plugins: [require("../index")],

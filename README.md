@@ -4,7 +4,7 @@
 
 **The most popular, free and open-source Tailwind CSS component library**  
 
-[ [See all components](https://dculusui.com/components/) ]
+[ [See all components](https://dculusux.com/components/) ]
 
 [![][tweet]][tweet-url]
 
@@ -17,9 +17,9 @@
 [![][build]][build-url] [![][npm]][npm-url] [![][number-of-components]][docs-url] [![][license]][license-url]  
 [![][dl]][npm-url] [![][stars]][gh-url] [![][commit]][gh-url]
 
-- [Official website →](https://dculusui.com/)
-- [See all components →](https://dculusui.com/components/)
-- [How to use →](https://dculusui.com/docs/install/)
+- [Official website →](https://dculusux.com/)
+- [See all components →](https://dculusux.com/components/)
+- [How to use →](https://dculusux.com/docs/install/)
 
 
 ## 🌼 Features
@@ -34,7 +34,7 @@
 ## 📀 Install now!
 
 ```bash
-npm i dculusui
+npm i dculusux
 ```
 
 Then add daisyUI to your `tailwind.config.js`:  
@@ -42,7 +42,7 @@ Then add daisyUI to your `tailwind.config.js`:
 
 ```js
 module.exports = {
-  plugins: [require("dculusui")],
+  plugins: [require("dculusux")],
 };
 ```
 
@@ -56,7 +56,7 @@ module.exports = {
 Loading CSS files from CDN is not recommended for production. It's better to install Tailwind and daisyUI as Nodejs dependencies so you can config/customize everything, and purge unused styles.
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/dculusui@2.14.3/dist/full.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/dculusux@2.14.3/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 ```
 
@@ -65,21 +65,21 @@ Loading CSS files from CDN is not recommended for production. It's better to ins
 
 ## 🚀 Use
 
-[[See all components →](https://dculusui.com/components/)]
+[[See all components →](https://dculusux.com/components/)]
 
 
 ## 📘 Documents + Examples
 
-See the official site: [ [dculusui.com →](https://dculusui.com/)]
+See the official site: [ [dculusux.com →](https://dculusux.com/)]
 
 
 ## 🤝 Support daisyUI
 
 |   |   |
 |---|---|
-| **Premium Sponsors** <br /> Support this project by becoming a premium sponsor. <br /> [[Become a sponsor](https://opencollective.com/dculusui)] | <a href="https://opencollective.com/dculusui" target="_blank"><img src="https://opencollective.com/dculusui/tiers/premium-sponsor.svg?button=false&width=500&avatarHeight=92"></a> |
-| **Backers** <br /> Thank you to all our backers! <br /> [[Become a backer](https://opencollective.com/dculusui)] | <a href="https://opencollective.com/dculusui" target="_blank"><img src="https://opencollective.com/dculusui/backers.svg?button=false&width=500&avatarHeight=46"></a> |
-| **Contributors** <br /> This project exists thanks to all the people who contribute. <br /> [[Contribute](https://github.com/saadeghi/dculusui/blob/master/.github/CONTRIBUTING.md)] | <a href="https://github.com/saadeghi/dculusui/graphs/contributors"><img src="https://opencollective.com/dculusui/contributors.svg?button=false&width=500&avatarHeight=24" /></a> |
+| **Premium Sponsors** <br /> Support this project by becoming a premium sponsor. <br /> [[Become a sponsor](https://opencollective.com/dculusux)] | <a href="https://opencollective.com/dculusux" target="_blank"><img src="https://opencollective.com/dculusux/tiers/premium-sponsor.svg?button=false&width=500&avatarHeight=92"></a> |
+| **Backers** <br /> Thank you to all our backers! <br /> [[Become a backer](https://opencollective.com/dculusux)] | <a href="https://opencollective.com/dculusux" target="_blank"><img src="https://opencollective.com/dculusux/backers.svg?button=false&width=500&avatarHeight=46"></a> |
+| **Contributors** <br /> This project exists thanks to all the people who contribute. <br /> [[Contribute](https://github.com/saadeghi/dculusux/blob/master/.github/CONTRIBUTING.md)] | <a href="https://github.com/saadeghi/dculusux/graphs/contributors"><img src="https://opencollective.com/dculusux/contributors.svg?button=false&width=500&avatarHeight=24" /></a> |
 
 Tweet about daisyUI: [![][tweet]][tweet-url]
 
@@ -173,14 +173,14 @@ Tweet about daisyUI: [![][tweet]][tweet-url]
 </summary>
   
 - Blogs
-  - [Logrocket](https://blog.logrocket.com/dculusui-tailwind-components-react-apps/)
+  - [Logrocket](https://blog.logrocket.com/dculusux-tailwind-components-react-apps/)
   - [GraphCMS](https://graphcms.com/blog/build-a-personal-timeline-with-graphcms-and-sveltekit)
   - [wweb.dev](https://wweb.dev/weekly/85/)
   - [flaming.codes](https://flaming.codes/posts/boostrap-tailwind-alternative-with-daisy-ui)
-  - [rockyourcode](https://www.rockyourcode.com/how-to-setup-react-typescript-with-snowpack-and-dculusui/)
+  - [rockyourcode](https://www.rockyourcode.com/how-to-setup-react-typescript-with-snowpack-and-dculusux/)
   - [HackerNews](https://news.ycombinator.com/item?id=28004515)
-  - [Product Hunt](https://www.producthunt.com/posts/dculusui)
-  - [Siecle Digital](https://siecledigital.fr/2021/05/29/dculusui-plugin-gratuit-avec-composants-tailwind-css-a/)
+  - [Product Hunt](https://www.producthunt.com/posts/dculusux)
+  - [Siecle Digital](https://siecledigital.fr/2021/05/29/dculusux-plugin-gratuit-avec-composants-tailwind-css-a/)
   - [speckyboy](https://speckyboy.com/weekly-news-for-designers-594/)
   - [dailydev](https://app.daily.dev/posts/-4OPGw0te)
   - [Future Tech Blog (Japanese)](https://future-architect.github.io/articles/20211124a/)
@@ -221,27 +221,27 @@ Tweet about daisyUI: [![][tweet]][tweet-url]
 
 </div>
 
-[install-size]: https://badgen.net/bundlephobia/minzip/dculusui?label=bundle%20size&color=green
-[build]: https://badgen.net/github/checks/saadeghi/dculusui?label=build
-[npm]: https://badgen.net/github/tag/saadeghi/dculusui?label=version&color=green
-[dl]: https://badgen.net/npm/dt/dculusui?label=installs&icon=npm&color=green
-[commit]: https://badgen.net/github/last-commit/saadeghi/dculusui?icon=github&color=green
-[license]: https://badgen.net/github/license/saadeghi/dculusui?color=green
-[stars]: https://badgen.net/github/stars/saadeghi/dculusui?color=green
+[install-size]: https://badgen.net/bundlephobia/minzip/dculusux?label=bundle%20size&color=green
+[build]: https://badgen.net/github/checks/saadeghi/dculusux?label=build
+[npm]: https://badgen.net/github/tag/saadeghi/dculusux?label=version&color=green
+[dl]: https://badgen.net/npm/dt/dculusux?label=installs&icon=npm&color=green
+[commit]: https://badgen.net/github/last-commit/saadeghi/dculusux?icon=github&color=green
+[license]: https://badgen.net/github/license/saadeghi/dculusux?color=green
+[stars]: https://badgen.net/github/stars/saadeghi/dculusux?color=green
 [tweet]: https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fsaadeghi%2Fdaisyui
-[install-size-url]: https://bundlephobia.com/result?p=dculusui
-[license-url]: https://github.com/saadeghi/dculusui/blob/master/LICENSE
-[npm-url]: https://www.npmjs.com/package/dculusui
-[cdnjs-url]: https://cdnjs.com/libraries/dculusui
-[gh-url]: https://github.com/saadeghi/dculusui
-[tw-play-url]: https://dculusui.com/tailwindplay
+[install-size-url]: https://bundlephobia.com/result?p=dculusux
+[license-url]: https://github.com/saadeghi/dculusux/blob/master/LICENSE
+[npm-url]: https://www.npmjs.com/package/dculusux
+[cdnjs-url]: https://cdnjs.com/libraries/dculusux
+[gh-url]: https://github.com/saadeghi/dculusux
+[tw-play-url]: https://dculusux.com/tailwindplay
 [codepen-url]: https://codepen.io/saadeghi/pen/gOwWKvv
-[unpkg-url]: https://unpkg.com/browse/dculusui/
-[jsdeliver-url]: https://www.jsdelivr.com/package/npm/dculusui
-[build-url]: https://github.com/saadeghi/dculusui/actions
-[tweet-url]: https://twitter.com/intent/tweet?text=daisyUI%20%0D%0AComponents%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/dculusui
+[unpkg-url]: https://unpkg.com/browse/dculusux/
+[jsdeliver-url]: https://www.jsdelivr.com/package/npm/dculusux
+[build-url]: https://github.com/saadeghi/dculusux/actions
+[tweet-url]: https://twitter.com/intent/tweet?text=daisyUI%20%0D%0AComponents%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/dculusux
 [number-of-components]: https://badgen.net/badge/total%20components/45/green
-[docs-url-install]: https://dculusui.com/docs/install
-[docs-url]: https://dculusui.com/
-[logo-url]: https://raw.githubusercontent.com/saadeghi/files/main/dculusui/logo-4.svg
-[banner-url]: https://raw.githubusercontent.com/saadeghi/files/main/dculusui/card-3.png
+[docs-url-install]: https://dculusux.com/docs/install
+[docs-url]: https://dculusux.com/
+[logo-url]: https://raw.githubusercontent.com/saadeghi/files/main/dculusux/logo-4.svg
+[banner-url]: https://raw.githubusercontent.com/saadeghi/files/main/dculusux/card-3.png
