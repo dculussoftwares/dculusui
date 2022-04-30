@@ -21,12 +21,12 @@ module.exports = {
       }
     }
   },
-  dculusui: {
+  dculusux: {
     logs: false,
   },
   plugins: [
     require('@tailwindcss/typography'),
-    process.env.NODE_ENV === 'production' ? require('dculusui') : [],
+    process.env.NODE_ENV === 'production' ? require('dculusux') : [],
   ],
   presets: [
     process.env.NODE_ENV === 'production' ? [] : require('../components/tailwind.config.js'),
