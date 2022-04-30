@@ -205,7 +205,7 @@
         wrapper.style.setProperty(color.variable, hslValue[0] + " " + hslValue[1] + "% " + hslValue[2] + "%")
       })
       if (browser) {
-        localStorage.setItem("daisyui-theme-generator-colors", JSON.stringify(colors))
+        localStorage.setItem("dculusui-theme-generator-colors", JSON.stringify(colors))
       }
     } else {
       console.log(`${newColorToCheck} is not a valid color`)
@@ -213,9 +213,9 @@
   }
 
   function resetColors() {
-    if (browser && localStorage.getItem("daisyui-theme-generator-colors")) {
-      localStorage.removeItem("daisyui-theme-generator-colors")
-      colors = JSON.parse(localStorage.getItem("daisyui-theme-generator-default-colors"))
+    if (browser && localStorage.getItem("dculusui-theme-generator-colors")) {
+      localStorage.removeItem("dculusui-theme-generator-colors")
+      colors = JSON.parse(localStorage.getItem("dculusui-theme-generator-default-colors"))
       generateColors()
     }
   }
@@ -225,7 +225,7 @@
   }
 
   function randomize() {
-    localStorage.removeItem("daisyui-theme-generator-colors")
+    localStorage.removeItem("dculusui-theme-generator-colors")
     ;["primary", "secondary", "accent"].forEach((element) => {
       colors[0].value = randomColor() //primary
       colors[3].value = randomColor() //secondary
@@ -243,9 +243,9 @@
   let wrapper
   onMount(() => {
     if (browser) {
-      localStorage.setItem("daisyui-theme-generator-default-colors", JSON.stringify(colors))
-      if (localStorage.getItem("daisyui-theme-generator-colors")) {
-        colors = JSON.parse(localStorage.getItem("daisyui-theme-generator-colors"))
+      localStorage.setItem("dculusui-theme-generator-default-colors", JSON.stringify(colors))
+      if (localStorage.getItem("dculusui-theme-generator-colors")) {
+        colors = JSON.parse(localStorage.getItem("dculusui-theme-generator-colors"))
       }
     }
     generateColors()
@@ -257,7 +257,7 @@
 <div class="prose mb-10">
   <h1><Translate text="daisyUI Theme Generator" /></h1>
   <p>
-    <Translate text="You can add your custom themes to <span class='badge badge-outline'>tailwind.config.js</span> file in <span class='badge badge-outline'>daisyui > themes</span> array. In this page, you can pick required color values and see how the components will look like with them." />
+    <Translate text="You can add your custom themes to <span class='badge badge-outline'>tailwind.config.js</span> file in <span class='badge badge-outline'>dculusui > themes</span> array. In this page, you can pick required color values and see how the components will look like with them." />
   </p>
   <div class="alert alert-info not-prose mb-2 text-sm">
     <div>
@@ -292,7 +292,7 @@
             <button class="btn btn-xs normal-case" on:click={() => resetColors()}><Translate text="Reset" /></button>
           </div>
           <pre><code class="text-neutral-content/30">{`module.exports = {`}</code>
-<code>{`    daisyui: {
+<code>{`    dculusui: {
       themes: [
         {
           mytheme: {`}</code>
@@ -303,7 +303,7 @@
       ],
     },`}</code>
 <code class="text-neutral-content/30">{`    plugins: [
-      require('daisyui'),
+      require('dculusui'),
     ],
     //...
   }  

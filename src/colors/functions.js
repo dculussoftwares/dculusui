@@ -173,22 +173,22 @@ module.exports = {
     let includedThemesObj = new Object();
 
     // add light themes
-    if (config("daisyui.themes") == false) {
+    if (config("dculusui.themes") == false) {
       Object.entries(themes).forEach(([theme, index]) => {
         includedThemesObj[theme] = this.convertToHsl(themes[theme]);
       });
     }
 
     // add default themes
-    if (config("daisyui.themes") != false) {
+    if (config("dculusui.themes") != false) {
       Object.entries(themes).forEach(([theme, index]) => {
         includedThemesObj[theme] = this.convertToHsl(themes[theme]);
       });
     }
 
     // add custom themes
-    if (Array.isArray(config("daisyui.themes"))) {
-      config("daisyui.themes").forEach((item, index) => {
+    if (Array.isArray(config("dculusui.themes"))) {
+      config("dculusui.themes").forEach((item, index) => {
         if (typeof item === "object" && item !== null) {
           Object.entries(item).forEach(([customThemeName, customThemevalue]) => {
             includedThemesObj["[data-theme=" + customThemeName + "]"] =
@@ -201,8 +201,8 @@ module.exports = {
 
 
     let themeOrder = [];
-    if (Array.isArray(config("daisyui.themes"))) {
-      config("daisyui.themes").forEach((theme, index) => {
+    if (Array.isArray(config("dculusui.themes"))) {
+      config("dculusui.themes").forEach((theme, index) => {
         if (typeof theme === "object" && theme !== null) {
           Object.entries(theme).forEach(([customThemeName, customThemevalue]) => {
             themeOrder.push(customThemeName);
@@ -213,7 +213,7 @@ module.exports = {
           themeOrder.push(theme);
         }
       });
-    } else if (config("daisyui.themes") != false) {
+    } else if (config("dculusui.themes") != false) {
       themeOrder = [
         "light",
         "dark",
@@ -245,7 +245,7 @@ module.exports = {
         "coffee",
         "winter",
       ];
-    } else if (config("daisyui.themes") == false) {
+    } else if (config("dculusui.themes") == false) {
       themeOrder.push("light");
     }
 
@@ -258,16 +258,16 @@ module.exports = {
         });
       } else if (index === 1) {
         // auto dark
-        if (config("daisyui.darkTheme")) {
+        if (config("dculusui.darkTheme")) {
           if (
-            themeOrder[0] != config("daisyui.darkTheme") &&
-            themeOrder.includes(config("daisyui.darkTheme"))
+            themeOrder[0] != config("dculusui.darkTheme") &&
+            themeOrder.includes(config("dculusui.darkTheme"))
           ) {
             addBase({
               ["@media (prefers-color-scheme: dark)"]: {
                 [":root"]:
                   includedThemesObj[
-                  `[data-theme=${config("daisyui.darkTheme")}]`
+                  `[data-theme=${config("dculusui.darkTheme")}]`
                   ],
               },
             });

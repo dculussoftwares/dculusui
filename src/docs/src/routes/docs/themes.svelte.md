@@ -29,14 +29,14 @@ published: true
 ```js
 module.exports = {
   //...
-  daisyui: {
+  dculusui: {
     themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
   },
 }
 ```
 
 <Translate text="The default theme is <code>light</code> (or <code>dark</code> for dark mode)" />  
-<Translate text="but you can <a href='https://daisyui.com/docs/config'>change the default theme from tailwind.config.js</a>" />
+<Translate text="but you can <a href='https://dculusui.com/docs/config'>change the default theme from tailwind.config.js</a>" />
 
 ## <Translate text="How to remove unused themes?" />
 
@@ -50,7 +50,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  daisyui: {
+  dculusui: {
     themes: ["cupcake", "dark", "cmyk"],
   },
 }
@@ -63,7 +63,7 @@ module.exports = {
 ```js
 module.exports = {
   //...
-  daisyui: {
+  dculusui: {
     themes: false,
   },
 }
@@ -74,7 +74,7 @@ module.exports = {
 ```js
 module.exports = {
   //...
-  daisyui: {
+  dculusui: {
     themes: [],
   },
 }
@@ -118,7 +118,7 @@ module.exports = {
 ```js
 module.exports = {
   //...
-  daisyui: {
+  dculusui: {
     themes: [
       {
         mytheme: {
@@ -143,7 +143,7 @@ module.exports = {
 ```js
 module.exports = {
   //...
-  daisyui: {
+  dculusui: {
     themes: [
       {
         mytheme: {
@@ -189,11 +189,11 @@ module.exports = {
 ```js
 module.exports = {
   //...
-  daisyui: {
+  dculusui: {
     themes: [
       {
         light: {
-          ...require("daisyui/src/colors/themes")["[data-theme=light]"],
+          ...require("dculusui/src/colors/themes")["[data-theme=light]"],
           primary: "blue",
           "primary-focus": "mediumblue",
         },

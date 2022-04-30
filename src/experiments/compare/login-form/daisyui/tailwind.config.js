@@ -1,6 +1,6 @@
 module.exports = {
   content: ['./*.html'],
-  daisyui: {
+  dculusui: {
     themes: [
       'light',
       'dark',
@@ -8,6 +8,6 @@ module.exports = {
     prefix: 'd-',
   },
   plugins: [
-    require('daisyui'),
+    require('dculusui'),
   ],
 }

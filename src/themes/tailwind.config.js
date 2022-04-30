@@ -5,7 +5,7 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  daisyui: {
+  dculusui: {
     base: false,
   },
   plugins: [require("../index")],

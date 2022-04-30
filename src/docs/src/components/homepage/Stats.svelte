@@ -4,7 +4,7 @@
   import { t } from "@src/lib/i18n"
 
   async function getGithubStars() {
-    const res = await fetch("https://api.github.com/repos/saadeghi/daisyui")
+    const res = await fetch("https://api.github.com/repos/saadeghi/dculusui")
     const json = await res.json()
     if (res.ok) {
       // return (Math.round(json.stargazers_count)).toLocaleString()
@@ -16,7 +16,7 @@
   const githubStars = getGithubStars()
 
   async function getNpmInstalls() {
-    const res = await fetch(`https://api.npmjs.org/downloads/point/1970:${new Date().getFullYear() + 1}/daisyui`)
+    const res = await fetch(`https://api.npmjs.org/downloads/point/1970:${new Date().getFullYear() + 1}/dculusui`)
     const json = await res.json()
     if (res.ok) {
       // return (Math.round(json.downloads)).toLocaleString()
@@ -38,7 +38,7 @@
       <div class="stat-value tabular-nums">{siteStats.themes}</div>
       <div class="stat-desc">{$t("themes")}</div>
     </a>
-    <a href="https://github.com/saadeghi/daisyui" target="_blank" rel="noopener" class="stat place-items-center gap-0 bg-transparent px-10 hover:opacity-70">
+    <a href="https://github.com/saadeghi/dculusui" target="_blank" rel="noopener" class="stat place-items-center gap-0 bg-transparent px-10 hover:opacity-70">
       <div class="stat-value tabular-nums">
         {#await githubStars}
           {siteStats.githubStars}
@@ -54,7 +54,7 @@
       </div>
       <div class="stat-desc">{$t("github-stars")}</div>
     </a>
-    <a href="https://www.npmjs.com/package/daisyui" target="_blank" rel="noopener" class="stat place-items-center gap-0 bg-transparent px-10 hover:opacity-70">
+    <a href="https://www.npmjs.com/package/dculusui" target="_blank" rel="noopener" class="stat place-items-center gap-0 bg-transparent px-10 hover:opacity-70">
       <div class="stat-value tabular-nums">
         {#await npmInstalls}
           {siteStats.npmInstalls}
