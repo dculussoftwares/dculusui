@@ -87,15 +87,15 @@ jobs:
         with:
           time: "10s"
 
-      - name: Install document website dependencies
-        run: cd src/docs && npm install
+#       - name: Install document website dependencies
+#         run: cd src/docs && npm install
 
-      - name: Build document website
-        run: cd src/docs && npm run build
+#       - name: Build document website
+#         run: cd src/docs && npm run build
 
-      - name: Deploy docs to github pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/docs/build
-          cname: ${{ secrets.CNAME }}
+#       - name: Deploy docs to github pages
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: ./src/docs/build
+#           cname: ${{ secrets.CNAME }}
