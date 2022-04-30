@@ -147,7 +147,7 @@ Tweet about daisyUI: [![][tweet]][tweet-url]
 
 - Navigation
   - [ ] App bar
-  - [x] Breadcrumbs
+  - [x] Breadcrumbss
   - [x] Link
   - [x] Menu
   - [x] Navbar
