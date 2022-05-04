@@ -20,6 +20,14 @@
       outline: 2px solid hsl(var(--p));
     }
   }
+
+  &-magnet {
+    &:focus, &:hover {
+      @apply border-primary;
+      outline: 2px solid hsl(var(--p));
+    }
+  }
+
   &-secondary {
     @apply border-secondary;
     &:focus {
