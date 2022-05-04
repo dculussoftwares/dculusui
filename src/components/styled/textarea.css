@@ -24,7 +24,7 @@
   &-magnet {
     &:focus, &:hover {
       @apply border-primary;
-      outline: 2px solid hsl(var(--p));
+      outline: 1px solid hsl(var(--p));
     }
   }
 
