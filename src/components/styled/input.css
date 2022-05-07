@@ -9,7 +9,7 @@
   /* &:focus {
     outline: 2px solid hsla(var(--bc) / 0.2);
     outline-offset: 2px;
-    
+
   } */
   &-ghost {
     @apply bg-opacity-5;
@@ -30,6 +30,7 @@
       @apply border-primary focus:outline-none hover:outline-none;
       outline: 1px solid hsl(var(--p));
       border-color: hsl(var(--p) / var(--tw-bg-opacity));
+      box-shadow: none;
     }
   }
   &-secondary {
