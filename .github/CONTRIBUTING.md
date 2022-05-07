@@ -4,26 +4,26 @@ daisyUI welcomes contributions from anyone willing to help 🤝
 
 ## Reporting issues
 
-- Before opening a new issue, first [search for existing issues](https://github.com/saadeghi/dculusux/issues?q=) to avoid duplications.
+- Before opening a new issue, first [search for existing issues](https://github.com/dculussoftwares/dculusux/issues?q=) to avoid duplications.
 - Provide detailed reports to make things easier for maintainers.
 - If there's a weird bug, please provide a reproduction repository on Github (or a [CodePen page](https://dculusux.com/codepen/) or [Tailwind Play](https://dculusux.com/tailwindplay/) page)
 
 ## Fixing existing issues
 
-- You can help by [fixing existing issues](https://github.com/saadeghi/dculusux/issues?q=)
+- You can help by [fixing existing issues](https://github.com/dculussoftwares/dculusux/issues?q=)
 - Don't work on issues assigned to others (to avoid duplicate efforts)
 - Before starting to work on an issue, please first add a comment and ask to get assigned to that issue. This way everyone will know you're working on that and it avoids duplicate efforts.
 - Commit messages must start with: `fix: #1 [description]` which `1` is the number of issue, so the issue will close automatically and it gets added to changelog file on a release.
 
 ## Feature requests
 
-- If you have an idea to discuss with the community, please [open a discussion](https://github.com/saadeghi/dculusux/discussions)
-- For feature requests, [open a new issue](https://github.com/saadeghi/dculusux/issues/new)
+- If you have an idea to discuss with the community, please [open a discussion](https://github.com/dculussoftwares/dculusux/discussions)
+- For feature requests, [open a new issue](https://github.com/dculussoftwares/dculusux/issues/new)
 - All feature requests may not fit this library and some may get rejected. Don't take it personally.
 
 ## Pull requests
 
-- A pull request must fix [an open issue](https://github.com/saadeghi/dculusux/issues?q=is%3Aissue+is%3Aopen) **assigned to you**. If there's no issue, please create one first. If it's not assigned to you, please ask for it in the comments. This is for avoiding duplicate efforts.
+- A pull request must fix [an open issue](https://github.com/dculussoftwares/dculusux/issues?q=is%3Aissue+is%3Aopen) **assigned to you**. If there's no issue, please create one first. If it's not assigned to you, please ask for it in the comments. This is for avoiding duplicate efforts.
 - Fixing typos doesn't need to be an issue. You can just open a pull request.
 - Fixing a mistake in document website doesn't need to be an issue. You can just open a pull request.
 
@@ -69,21 +69,21 @@ daisyUI welcomes contributions from anyone willing to help 🤝
 
 ## Adding a new component
 
-Before adding a new component, please make sure it's [start a discussion about it on Github](https://github.com/saadeghi/dculusux/discussions) so we can talk about how the structure and style should be.  
-There is a `List of components` at the end of [/README.md](https://github.com/saadeghi/dculusux/blob/master/README.md) that I think would be a good addition to daisyUI.
+Before adding a new component, please make sure it's [start a discussion about it on Github](https://github.com/dculussoftwares/dculusux/discussions) so we can talk about how the structure and style should be.  
+There is a `List of components` at the end of [/README.md](https://github.com/dculussoftwares/dculusux/blob/master/README.md) that I think would be a good addition to daisyUI.
 
 ### File structure
 
-All component styles are in [`/src`](https://github.com/saadeghi/dculusux/tree/master/src) but it's important to separate the style to 4 files:
+All component styles are in [`/src`](https://github.com/dculussoftwares/dculusux/tree/master/src) but it's important to separate the style to 4 files:
 
 - `/src/components/unstyled`: Styles that define the layout and placement of a component  
-  (for example: [layout of `tab` and `tabs`](https://github.com/saadeghi/dculusux/blob/master/src/components/unstyled/tab.css))
+  (for example: [layout of `tab` and `tabs`](https://github.com/dculussoftwares/dculusux/blob/master/src/components/unstyled/tab.css))
 - `/src/components/styled`: Styles that define the visual appearance of a component  
-  (for example: [colors and spacing of `alert`](https://github.com/saadeghi/dculusux/blob/master/src/components/styled/alert.css))
+  (for example: [colors and spacing of `alert`](https://github.com/dculussoftwares/dculusux/blob/master/src/components/styled/alert.css))
 - `/src/utilities/unstyled`: Styles that define the layout and placement of a variant of a component that must be responsive  
-  (for example: [sizes of a `.btn`](https://github.com/saadeghi/dculusux/blob/master/src/utilities/unstyled/button.css))
+  (for example: [sizes of a `.btn`](https://github.com/dculussoftwares/dculusux/blob/master/src/utilities/unstyled/button.css))
 - `/src/utilities/styled`: Styles that define the visual appearance of a variant of a component that must be responsive  
-  (for example: [colors of `alert`](https://github.com/saadeghi/dculusux/blob/master/src/utilities/styled/alert.css))
+  (for example: [colors of `alert`](https://github.com/dculussoftwares/dculusux/blob/master/src/utilities/styled/alert.css))
 
 > Separating styles to these 4 files, allows us to use daisyUI components with/without _design decision_ styles ([See `styled` config](styled)) and allows us to define some styles as responsive utilities (to work with `lg:`, `md:`, `sm:`, etc... prefixes)
 

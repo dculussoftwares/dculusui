@@ -1,16 +1,16 @@
 {
   "name": "dculusux",
-  "version": "2.14.20",
+  "version": "2.14.21",
   "description": "daisyUI - Tailwind CSS Components",
   "author": "Pouya Saadeghi",
   "license": "MIT",
-  "homepage": "https://github.com/saadeghi/dculusux",
+  "homepage": "https://github.com/dculussoftwares/dculusux",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saadeghi/dculusux.git"
+    "url": "git+https://github.com/dculussoftwares/dculusux.git"
   },
   "bugs": {
-    "url": "https://github.com/saadeghi/dculusux/issues"
+    "url": "https://github.com/dculussoftwares/dculusux/issues"
   },
   "keywords": [
     "design-system",

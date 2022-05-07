@@ -79,7 +79,7 @@ See the official site: [ [dculusux.com →](https://dculusux.com/)]
 |---|---|
 | **Premium Sponsors** <br /> Support this project by becoming a premium sponsor. <br /> [[Become a sponsor](https://opencollective.com/dculusux)] | <a href="https://opencollective.com/dculusux" target="_blank"><img src="https://opencollective.com/dculusux/tiers/premium-sponsor.svg?button=false&width=500&avatarHeight=92"></a> |
 | **Backers** <br /> Thank you to all our backers! <br /> [[Become a backer](https://opencollective.com/dculusux)] | <a href="https://opencollective.com/dculusux" target="_blank"><img src="https://opencollective.com/dculusux/backers.svg?button=false&width=500&avatarHeight=46"></a> |
-| **Contributors** <br /> This project exists thanks to all the people who contribute. <br /> [[Contribute](https://github.com/saadeghi/dculusux/blob/master/.github/CONTRIBUTING.md)] | <a href="https://github.com/saadeghi/dculusux/graphs/contributors"><img src="https://opencollective.com/dculusux/contributors.svg?button=false&width=500&avatarHeight=24" /></a> |
+| **Contributors** <br /> This project exists thanks to all the people who contribute. <br /> [[Contribute](https://github.com/dculussoftwares/dculusux/blob/master/.github/CONTRIBUTING.md)] | <a href="https://github.com/dculussoftwares/dculusux/graphs/contributors"><img src="https://opencollective.com/dculusux/contributors.svg?button=false&width=500&avatarHeight=24" /></a> |
 
 Tweet about daisyUI: [![][tweet]][tweet-url]
 
@@ -230,16 +230,16 @@ Tweet about daisyUI: [![][tweet]][tweet-url]
 [stars]: https://badgen.net/github/stars/saadeghi/dculusux?color=green
 [tweet]: https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fsaadeghi%2Fdaisyui
 [install-size-url]: https://bundlephobia.com/result?p=dculusux
-[license-url]: https://github.com/saadeghi/dculusux/blob/master/LICENSE
+[license-url]: https://github.com/dculussoftwares/dculusux/blob/master/LICENSE
 [npm-url]: https://www.npmjs.com/package/dculusux
 [cdnjs-url]: https://cdnjs.com/libraries/dculusux
-[gh-url]: https://github.com/saadeghi/dculusux
+[gh-url]: https://github.com/dculussoftwares/dculusux
 [tw-play-url]: https://dculusux.com/tailwindplay
 [codepen-url]: https://codepen.io/saadeghi/pen/gOwWKvv
 [unpkg-url]: https://unpkg.com/browse/dculusux/
 [jsdeliver-url]: https://www.jsdelivr.com/package/npm/dculusux
-[build-url]: https://github.com/saadeghi/dculusux/actions
-[tweet-url]: https://twitter.com/intent/tweet?text=daisyUI%20%0D%0AComponents%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/saadeghi/dculusux
+[build-url]: https://github.com/dculussoftwares/dculusux/actions
+[tweet-url]: https://twitter.com/intent/tweet?text=daisyUI%20%0D%0AComponents%20for%20Tailwind%20CSS%20%0D%0Ahttps://github.com/dculussoftwares/dculusux
 [number-of-components]: https://badgen.net/badge/total%20components/45/green
 [docs-url-install]: https://dculusux.com/docs/install
 [docs-url]: https://dculusux.com/
