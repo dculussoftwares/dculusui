@@ -3,10 +3,10 @@
   &-bordered {
     @apply border-opacity-20;
   }
-  &:focus {
+  /* &:focus {
     outline: 2px solid hsla(var(--bc) / 0.2);
     outline-offset: 2px;
-  }
+  } */
   &-ghost {
     @apply bg-opacity-5;
     &:focus {
