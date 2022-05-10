@@ -2,7 +2,7 @@
   box-shadow: none;
   --chkbg: var(--bc);
   --chkfg: var(--b1);
-  @apply h-6 w-6 cursor-pointer appearance-none border border-base-content border-opacity-20 rounded-btn;
+  @apply h-6 w-6 cursor-pointer appearance-none border border-base-content border-opacity-20 rounded-btn shadow-none;
   &:focus-visible {
     outline: 2px solid hsl(var(--bc));
     outline-offset: 2px;
@@ -34,17 +34,19 @@
   &-magnet {
     --chkbg: var(--p);
     --chkfg: var(--pc);
-    @apply border-primary hover:border-primary;
+    @apply border-primary hover:border-primary shadow-none;
     &:focus-visible {
       outline: 2px solid hsl(var(--p));
-      box-shadow: none;
+      @apply shadow-none;
+    }
+    &:focus {
+      @apply shadow-none;
+      /* box-shadow: none; */
     }
     &:checked,
     &[checked="true"] {
-      @apply border-primary bg-primary text-primary-content;
-      box-shadow: none;
+      @apply border-primary bg-primary text-primary-content shadow-none;
     }
-    box-shadow: none;
   }
 
   &-secondary {
