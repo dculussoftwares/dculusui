@@ -37,10 +37,12 @@
     @apply border-primary hover:border-primary;
     &:focus-visible {
       outline: 2px solid hsl(var(--p));
+      box-shadow: none;
     }
     &:checked,
     &[checked="true"] {
       @apply border-primary bg-primary text-primary-content;
+      box-shadow: none;
     }
     box-shadow: none;
   }
