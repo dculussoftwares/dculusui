@@ -29,6 +29,21 @@
       @apply border-primary bg-primary text-primary-content;
     }
   }
+  
+  &--magnet {
+    --chkbg: var(--p);
+    --chkfg: var(--pc);
+    @apply border-primary hover:border-primary;
+    &:focus-visible {
+      outline: 2px solid hsl(var(--p));
+    }
+    &:checked,
+    &[checked="true"] {
+      @apply border-primary bg-primary text-primary-content;
+    }
+    box-shadow: none;
+  }
+
   &-secondary {
     --chkbg: var(--s);
     --chkfg: var(--sc);
