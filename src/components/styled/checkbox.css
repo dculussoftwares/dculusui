@@ -1,4 +1,5 @@
 .checkbox {
+  box-shadow: none;
   --chkbg: var(--bc);
   --chkfg: var(--b1);
   @apply h-6 w-6 cursor-pointer appearance-none border border-base-content border-opacity-20 rounded-btn;
@@ -30,7 +31,7 @@
     }
   }
   
-  &--magnet {
+  &-magnet {
     --chkbg: var(--p);
     --chkfg: var(--pc);
     @apply border-primary hover:border-primary;
